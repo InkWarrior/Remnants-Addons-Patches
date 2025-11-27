@@ -75,5 +75,42 @@
             "path": "/items/default/0/1/0/legs/0/name",
             "value": "iwrmp_janitorlegs"
         }
+    ],
+[
+        {
+            "op": "test",
+            "path": "/items/default/0/1/0/sheathedprimary/0",
+            "value": "npcassaultrifle"
+        },
+        {
+            "op": "replace",
+            "path": "/items/default/0/1/0/sheathedprimary/0",
+            "value": "durasteelassaultrifle"
+        }
+    ],
+[
+        {
+            "op": "test",
+            "path": "/items/default/0/1/0/sheathedprimary/1",
+            "value": "npcdagger"
+        },
+        {
+            "op": "replace",
+            "path": "/items/default/0/1/0/sheathedprimary/1",
+            "value": "titaniumdagger"
+        }
+    ],
+[
+        {
+            "op": "test",
+            "path": "/items/default/0/1/0/sheathedprimary/2",
+            "value": "npcbaton"
+        },
+        {
+            "op": "replace",
+            "path": "/items/default/0/1/0/sheathedprimary/1",
+            "value": "titaniumbaton"
+        }
     ]
+
 ]

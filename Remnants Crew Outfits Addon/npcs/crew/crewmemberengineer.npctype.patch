@@ -75,5 +75,42 @@
             "path": "/items/default/0/1/0/legs/0/name",
             "value": "iwrmp_engineerlegs"
         }
+    ],
+[
+        {
+            "op": "test",
+            "path": "/items/default/0/1/0/sheathedprimary/0",
+            "value": "npcpistol"
+        },
+        {
+            "op": "replace",
+            "path": "/items/default/0/1/0/sheathedprimary/0",
+            "value": "durasteelpistol"
+        }
+    ],
+[
+        {
+            "op": "test",
+            "path": "/items/default/0/1/0/sheathedprimary/1",
+            "value": "npcshortsword"
+        },
+        {
+            "op": "replace",
+            "path": "/items/default/0/1/0/sheathedprimary/1",
+            "value": "durasteelshortsword"
+        }
+    ],
+[
+        {
+            "op": "test",
+            "path": "/items/default/0/1/0/sheathedprimary/2",
+            "value": "npccane"
+        },
+        {
+            "op": "replace",
+            "path": "/items/default/0/1/0/sheathedprimary/1",
+            "value": "durasteelcane"
+        }
     ]
+
 ]

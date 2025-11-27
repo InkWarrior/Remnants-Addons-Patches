@@ -75,5 +75,17 @@
             "path": "/items/default/0/1/0/legs/0/name",
             "value": "iwrmp_mechaniclegs"
         }
+    ],
+[
+        {
+            "op": "test",
+            "path": "/items/default/0/1/0/sheathedprimary/1",
+            "value": "npcshotgun"
+        },
+        {
+            "op": "replace",
+            "path": "/items/default/0/1/0/sheathedprimary/1",
+            "value": "tungstenshotgun"
+        }
     ]
 ]

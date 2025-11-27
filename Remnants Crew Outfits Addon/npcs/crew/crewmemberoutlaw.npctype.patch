@@ -75,5 +75,90 @@
             "path": "/items/default/0/1/0/legs/0/name",
             "value": "iwrmp_outlawlegs"
         }
-    ]
+    ],
+[
+        {
+    "op": "test",
+    "path": "/items/default/0/1/0/primary/0",
+    "value": "npcbroadsword"
+  },
+        {
+    "op": "replace",
+    "path": "/items/default/0/1/0/primary/0",
+    "value": "durasteelbroadsword"
+  }
+    ],
+[
+        {
+    "op": "test",
+    "path": "/items/default/0/1/0/primary/0",
+    "value": "npcsniperrifle"
+  },
+        {
+    "op": "replace",
+    "path": "/items/default/0/1/0/primary/0",
+    "value": "titaniumsniperrifle"
+  }
+    ],
+[
+{
+    "op": "test",
+    "path": "/items/default/0/1/0/sheathedprimary/0",
+    "value": "npcshotgun"
+  },
+        {
+    "op": "replace",
+    "path": "/items/default/0/1/0/sheathedprimary/0",
+    "value": "tungstenshotgun"
+  }
+],
+[
+{
+    "op": "test",
+    "path": "/items/default/0/1/0/sheathedprimary/0",
+    "value": "npcdagger"
+  },
+        {
+    "op": "replace",
+    "path": "/items/default/0/1/0/sheathedprimary/0",
+    "value": "titaniumdagger"
+  }
+],
+
+[
+{
+    "op": "test",
+    "path": "/items/default/0/1/0/sheathedprimary/1",
+    "value": "npcassaultrifle"
+  },
+        {
+    "op": "replace",
+    "path": "/items/default/0/1/0/sheathedprimary/1",
+    "value": "durasteelassaultrifle"
+  }
+],
+[
+{
+    "op": "test",
+    "path": "/items/default/0/1/0/primary/1",
+    "value": "npcclub"
+  },
+        {
+    "op": "replace",
+    "path": "/items/default/0/1/0/primary/1",
+    "value": "tungstenclub"
+  }
+],
+[
+{
+    "op": "test",
+    "path": "/items/default/0/1/0/primary/2",
+    "value": "npcgs"
+  },
+        {
+    "op": "replace",
+    "path": "/items/default/0/1/0/primary/2",
+    "value": "durasteelgs"
+  }
+]
 ]
