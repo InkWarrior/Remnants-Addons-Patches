@@ -1,0 +1,13 @@
+[
+  {
+    "op": "add",
+    "path": "/paneLayout/speciesTabs/buttons/-",
+    "value": {
+      "position": [4, 5],
+      "baseImage": "/interface/codex/tab_protectorate.png",
+      "baseImageChecked": "/interface/codex/tab_protectorate_select.png",
+      "pressedOffset": [0, 0],
+      "data": { "species": "protectorate" }
+    }
+  }
+]

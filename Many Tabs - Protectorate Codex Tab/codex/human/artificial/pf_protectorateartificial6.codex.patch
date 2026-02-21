@@ -1,0 +1,12 @@
+[
+    {
+        "op": "test",
+        "path": "/species",
+        "value": "human"
+    },
+    {
+        "op": "replace",
+        "path": "/species",
+        "value": "protectorate"
+    }
+]

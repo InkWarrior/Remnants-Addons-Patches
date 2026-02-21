@@ -1,0 +1,12 @@
+[
+    {
+        "op": "test",
+        "path": "/species",
+        "value": "apex"
+    },
+    {
+        "op": "replace",
+        "path": "/species",
+        "value": "protectorate"
+    }
+]

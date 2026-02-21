@@ -1,0 +1,11 @@
+{
+  "author" : "InkWarrior101",
+  "description" : "[h1]About[/h1]\nI first made this just as an addon for Remnants of the Protectorate, but then I thought it could work better as an addon of its own. This addon uses Many Tabs to add a new Codex tab dedicated exclusively for Protectorate codices.\nMod Compatibility:\n[b]Remnants of the Protectorate[/b]\n[b]Project Ancient Cosmos[/b]\n[b]Project Redemption (including its NostOS and Chaos Weapons addons) [/b]\n[b]Nomadic De’nelaun[/b]\n[b]Pandora’s Box[/b]\n[b]Arsenalbound Lastree[/b]\n[b]Felin[/b]\n[b]Neki[/b]\n",
+  "friendlyName" : "Protectorate Codex Tab - Many Tabs Addon",
+  "includes" : ["IWPrtcRemnants", "Project Ancient Cosmos", "Project Redemption", "NostOs - Project Redemption Addon", "Chaos Weapons + Project Redemption Integration Patch", "DenelaunRace", "Pandoras-Box", "lastree", "Felins", "Neki"],
+  "link" : "steam://url/CommunityFilePage/3670175090",
+  "name" : "IWPrtcManyTabs",
+  "steamContentId" : "3670175090",
+  "tags" : "User Interface",
+  "version" : "1.0"
+}
