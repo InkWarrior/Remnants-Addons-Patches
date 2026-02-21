@@ -1,1 +1,11 @@
-{"name":"IWPrtcRemnantsOutfits","includes":["IWPrtcRemnants", "Earth's Finest - Crew Improvements", "GRANDARM.IHC"]}
+{
+  "author" : "InkWarrior101",
+  "description" : "[h1]About[/h1]\nI originally patched the crewmember npcs to wear the new outfits introduced by Remnants of the Protectorate, however, after thinking about it I decided to make it a separate addon. As a plus, I added some extra compatibility for some crew related mods, mainly these ones:\n[b]Earth’s Finnest[/b]\n[b]Grand Armory[/b]\n[b]Better Crew[/b]\n\n[b]Obviously, you need Remnants of the Protectorate installed for this to work.[/b]\n",
+  "friendlyName" : "Remnants Addon: Assorted Crew Changes",
+  "includes" : ["IWPrtcRemnants", "Earth's Finest - Crew Improvements", "GRANDARM.IHC"],
+  "link" : "steam://url/CommunityFilePage/3670172245",
+  "name" : "IWPrtcRemnantsOutfits",
+  "steamContentId" : "3670172245",
+  "tags" : "NPCs and Creatures|Character Improvements",
+  "version" : "1.0"
+}
