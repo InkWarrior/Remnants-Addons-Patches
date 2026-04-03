@@ -85,7 +85,7 @@
         {
     "op": "replace",
     "path": "/items/default/0/1/0/primary/0",
-    "value": "durasteelbroadsword"
+    "value": "iwrmp_durasteelbroadsword"
   }
     ],
 [
@@ -97,7 +97,7 @@
         {
     "op": "replace",
     "path": "/items/default/0/1/0/primary/0",
-    "value": "titaniumsniperrifle"
+    "value": "iwrmp_titaniumsniperrifle"
   }
     ],
 [
@@ -109,7 +109,7 @@
         {
     "op": "replace",
     "path": "/items/default/0/1/0/sheathedprimary/0",
-    "value": "tungstenshotgun"
+    "value": "iwrmp_tungstenshotgun"
   }
 ],
 [
@@ -121,7 +121,7 @@
         {
     "op": "replace",
     "path": "/items/default/0/1/0/sheathedprimary/0",
-    "value": "titaniumdagger"
+    "value": "iwrmp_titaniumdagger"
   }
 ],
 
@@ -134,7 +134,7 @@
         {
     "op": "replace",
     "path": "/items/default/0/1/0/sheathedprimary/1",
-    "value": "durasteelassaultrifle"
+    "value": "iwrmp_durasteelassaultrifle"
   }
 ],
 [
@@ -146,7 +146,7 @@
         {
     "op": "replace",
     "path": "/items/default/0/1/0/primary/1",
-    "value": "tungstenclub"
+    "value": "iwrmp_tungstenclub"
   }
 ],
 [
@@ -158,7 +158,7 @@
         {
     "op": "replace",
     "path": "/items/default/0/1/0/primary/2",
-    "value": "durasteelgs"
+    "value": "iwrmp_durasteelgs"
   }
 ]
 ]

@@ -199,7 +199,7 @@
         {
     "op": "replace",
     "path": "/items/default/0/1/0/primary/0",
-    "value": "durasteelassaultrifle"
+    "value": "iwrmp_durasteelassaultrifle"
   }
     ],
 [
@@ -211,7 +211,7 @@
         {
     "op": "replace",
     "path": "/items/default/0/1/0/sheathedprimary/0",
-    "value": "durasteelbroadsword"
+    "value": "iwrmp_durasteelbroadsword"
   }
 ],
 [
@@ -223,7 +223,7 @@
         {
     "op": "replace",
     "path": "/items/default/0/1/1/primary/0",
-    "value": "durasteelbroadsword"
+    "value": "iwrmp_durasteelbroadsword"
   }
     ],
 [
@@ -235,7 +235,7 @@
         {
     "op": "replace",
     "path": "/items/default/0/1/1/sheathedprimary/0",
-    "value": "durasteelassaultrifle"
+    "value": "iwrmp_durasteelassaultrifle"
   }
 ],
 [
@@ -247,7 +247,7 @@
         {
     "op": "replace",
     "path": "/items/default/0/1/0/sheathedprimary/1",
-    "value": "tungstenclub"
+    "value": "iwrmp_tungstenclub"
   }
 ],
 [
@@ -259,7 +259,7 @@
         {
     "op": "replace",
     "path": "/items/default/0/1/1/primary/1",
-    "value": "tungstenclub"
+    "value": "iwrmp_tungstenclub"
   }
 ],
 [
@@ -271,7 +271,7 @@
         {
     "op": "replace",
     "path": "/items/default/0/1/0/sheathedprimary/2",
-    "value": "durasteelgs"
+    "value": "iwrmp_durasteelgs"
   }
 ],
 [
@@ -283,7 +283,7 @@
         {
     "op": "replace",
     "path": "/items/default/0/1/1/primary/2",
-    "value": "durasteelgs"
+    "value": "iwrmp_durasteelgs"
   }
 ]
 ]

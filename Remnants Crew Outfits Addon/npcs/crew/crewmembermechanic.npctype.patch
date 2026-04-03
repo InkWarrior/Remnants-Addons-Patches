@@ -85,7 +85,7 @@
         {
             "op": "replace",
             "path": "/items/default/0/1/0/sheathedprimary/1",
-            "value": "tungstenshotgun"
+            "value": "iwrmp_tungstenshotgun"
         }
     ]
 ]
