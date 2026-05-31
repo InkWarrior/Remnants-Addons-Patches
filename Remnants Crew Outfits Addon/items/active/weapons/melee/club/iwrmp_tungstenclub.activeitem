@@ -1,0 +1,92 @@
+{
+  "itemName" : "iwrmp_tungstenclub",
+  "price" : 960,
+  "fixedLevel" : false,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Heavy, but hard-hitting.",
+  "shortdescription" : "Tungsten Club",
+  "tooltipKind" : "sword",
+  "category" : "club",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","hammer","club"],
+
+  "inventoryIcon" : "tungstenclub.png",
+
+  "animation" : "/items/active/weapons/melee/broadsword/broadsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "tungstenclub.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_hammer.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+  "critChance" : 6,
+  "critBonus" : 3,
+  "primaryAbilityType" : "axecleave",
+  "primaryAbility" : {
+    "fireTime" : 0.83,
+    "baseDps" : 10,
+    "damageConfig" : {
+      "damageSourceKind" : "hammer",
+      "statusEffects" : [ "paralysis" ],
+      "knockbackMode" : "facing",
+      "knockback" : 20
+    },
+    "smashMomentum" : [0, -20],
+    "stances" : {
+      "idle" : {
+        "weaponOffset" : [0, 0],
+        "weaponRotation" : -10,
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+      "windup" : {
+        "weaponOffset" : [0, 0],
+        "twoHanded" : true,
+        "allowRotate" : false,
+
+        "bounceTime" : 0.2,
+        "bounceWeaponAngle" : [
+          [1.0, "linear", 0, 0]
+        ],
+        "bounceArmAngle" : [
+          [1.0, "linear", 40, 50]
+        ],
+
+        "weaponAngle" : [
+          [1.0, "linear", 0, 0]
+        ],
+        "armAngle" : [
+          [1.0, "sin", -90, 40]
+        ]
+      },
+      "preslash" : {
+        "weaponOffset" : [0, 0],
+        "duration" : 0.025,
+        "armRotation" : 55,
+        "weaponRotation" : -45,
+        "twoHanded" : true,
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "fire" : {
+        "weaponOffset" : [0, 0],
+        "weaponRotation" : -55,
+        "twoHanded" : true,
+        "smashTimer" : 0.6,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "altAbilityType" : "bladecharge",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

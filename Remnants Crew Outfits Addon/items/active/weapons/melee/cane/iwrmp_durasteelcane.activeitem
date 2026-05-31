@@ -1,0 +1,86 @@
+{
+  "itemName" : "iwrmp_durasteelcane",
+  "price" : 480,
+  "fixedLevel" : false,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "This cane is forged from solid durasteel.",
+  "shortdescription" : "Durasteel Cane",
+  "tooltipKind" : "sword",
+  "category" : "cane",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","shortsword","cane"],
+
+  "inventoryIcon" : "durasteelcane.png",
+
+  "animation" : "/items/active/weapons/melee/shortsword/comboshortsword.animation",
+  "animationParts" : {
+    "handle": "",
+    "blade" : "durasteelcane.png"
+  },
+  "animationCustom" : {
+    "animatedParts" : {
+      "parts" : {
+        "swoosh" : {
+          "partStates" : {
+            "swoosh" : {
+              "fire2" : {
+                "properties" : {
+                  "image" : "/items/active/weapons/melee/quarterstaff/swoosh/<elementalType>swoosh.png:<frame>"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+  "critChance" : 6,
+  "critBonus" : 3,
+  "primaryAbilityType" : "shortswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.425,
+    "baseDps" : 7.5,
+    "stances" : {
+      "idle" : {
+        "weaponOffset" : [0, 2.0]
+      },
+      "windup1" : {
+        "duration" : 0.04,
+        "weaponOffset" : [0, 2.0]
+      },
+      "fire1" : {
+        "duration" : 0.14,
+        "weaponOffset" : [0, 2.0]
+      },
+      "wait1" : {
+        "duration" : 0.2,
+        "weaponOffset" : [0, 2.0]
+      },
+      "windup2" : {
+        "duration" : 0.07,
+        "weaponOffset" : [0, 2.0]
+      },
+      "fire2" : {
+        "duration" : 0.2,
+        "weaponOffset" : [0, 2.0]
+      }
+    },
+    "stepDamageConfig" : [
+      {
+        "baseDamageFactor" : 1.0,
+        "knockback" : 10
+      },
+      {
+        "baseDamageFactor" : 1.4,
+        "knockback" : 25
+      }
+    ]
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

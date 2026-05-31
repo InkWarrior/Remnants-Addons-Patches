@@ -48,7 +48,7 @@
         {
             "op": "replace",
             "path": "/items/default/0/1/0/sheathedprimary/0",
-            "value": "durasteelpistol"
+            "value": "iwrmp_durasteelrevolver"
         }
     ],
 [
@@ -60,7 +60,7 @@
         {
             "op": "replace",
             "path": "/items/default/0/1/0/sheathedprimary/1",
-            "value": "durasteelshortsword"
+            "value": "iwrmp_durasteelshortsword"
         }
     ],
 [
@@ -72,7 +72,7 @@
         {
             "op": "replace",
             "path": "/items/default/0/1/0/sheathedprimary/1",
-            "value": "titaniummachinepistol"
+            "value": "iwrmp_titaniummachinepistol"
         }
     ],
 [
@@ -84,7 +84,7 @@
         {
             "op": "replace",
             "path": "/items/default/0/1/0/sheathedprimary/1",
-            "value": "durasteelcane"
+            "value": "iwrmp_durasteelcane"
         }
     ]
 ]

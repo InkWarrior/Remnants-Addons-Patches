@@ -85,7 +85,7 @@
         {
             "op": "replace",
             "path": "/items/default/0/1/0/sheathedprimary/0",
-            "value": "durasteelassaultrifle"
+            "value": "iwrmp_durasteelassaultrifle"
         }
     ],
 [
@@ -97,7 +97,7 @@
         {
             "op": "replace",
             "path": "/items/default/0/1/0/sheathedprimary/1",
-            "value": "titaniumdagger"
+            "value": "iwrmp_titaniumdagger"
         }
     ],
 [
@@ -109,7 +109,7 @@
         {
             "op": "replace",
             "path": "/items/default/0/1/0/sheathedprimary/1",
-            "value": "titaniumbaton"
+            "value": "iwrmp_titaniumbaton"
         }
     ]
 
