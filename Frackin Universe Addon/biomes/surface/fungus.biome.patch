@@ -13,7 +13,7 @@
       "distribution": "/biomes/distributions.config:overgroundChests",
       "type": "treasureBox",
       "treasureBoxSets": [
-        "iwrmp_protectoratepod_gentle"
+        "iwrmp_protectoratepod_radioactive"
       ]
     }
   },
@@ -27,7 +27,7 @@
       "distribution": "/biomes/distributions.config:mainBiomeEncounterDungeon",
       "type": "microdungeon",
       "microdungeons": [
-        "iwrmp_envoyencounters"
+        "iwrmp_envoyencounterstoxic"
       ]
     }
   }
