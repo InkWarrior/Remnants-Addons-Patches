@@ -1,0 +1,52 @@
+[
+  {
+    "op": "replace",
+    "path": "/items/override/0/1/0/primary/0",
+    "value": "iwrmp_durasteelspear"
+  },
+  {
+    "op": "replace",
+    "path": "/items/override/0/1/0/primary/1",
+    "value": "iwrmp_durasteelaxe"
+  },
+  {
+    "op": "replace",
+    "path": "/items/override/0/1/0/primary/2",
+    "value": "iwrmp_durasteelhammer"
+  },
+  {
+    "op": "replace",
+    "path": "/items/override/0/1/0/sheathedprimary/1",
+    "value": "iwrmp_durasteelmachinepistol"
+  },
+  {
+    "op": "replace",
+    "path": "/items/override/0/1/0/sheathedprimary/2",
+    "value": "iwrmp_aegisaltpistol3"
+  },
+  {
+    "op": "replace",
+    "path": "/items/override/0/1/1/primary/1",
+    "value": "iwrmp_durasteelshotgun"
+  },
+  {
+    "op": "replace",
+    "path": "/items/override/0/1/1/primary/2",
+    "value": "iwrmp_durasteelsniperrifle"
+  },
+  {
+    "op": "add",
+    "path": "/items/override/0/1/1/primary/-",
+    "value": "iwrmp_fuprotectoraterifle"
+  },
+  {
+    "op": "add",
+    "path": "/items/override/0/1/1/primary/-",
+    "value": "iwrmp_fuprotectoratesniper"
+  },
+  {
+    "op": "replace",
+    "path": "/items/override/0/1/1/sheathedprimary/1",
+    "value": "iwrmp_durasteeldagger"
+  }
+]

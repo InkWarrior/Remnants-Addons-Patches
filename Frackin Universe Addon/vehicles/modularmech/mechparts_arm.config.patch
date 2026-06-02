@@ -1,0 +1,14 @@
+[
+	[
+		{
+			"op": "add",
+			"path": "/iwrmp_matterseparator/elementalType",
+			"value": "physical"
+		},
+		{
+			"op": "add",
+			"path": "/iwrmp_matterseparator/stats/mechMass",
+			"value": 4
+		}
+	]
+]

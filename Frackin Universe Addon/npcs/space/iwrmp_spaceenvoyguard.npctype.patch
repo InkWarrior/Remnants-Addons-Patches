@@ -1,0 +1,32 @@
+[
+  {
+    "op": "replace",
+    "path": "/items/override/0/1/0/primary/1",
+    "value": "durasteelshotgun"
+  },
+  {
+    "op": "replace",
+    "path": "/items/override/0/1/0/primary/2",
+    "value": "durasteelsniperrifle"
+  },
+  {
+    "op": "replace",
+    "path": "/items/override/0/1/0/primary/4",
+    "value": "durasteelmachinepistol"
+  },
+  {
+    "op": "replace",
+    "path": "/items/override/0/1/0/primary/5",
+    "value": "aegisaltpistol3"
+  },
+  {
+    "op": "add",
+    "path": "/items/override/0/1/0/primary/-",
+    "value": "fuprotectoraterifle"
+  },
+  {
+    "op": "add",
+    "path": "/items/override/0/1/0/primary/-",
+    "value": "fuprotectoratesniper"
+  }
+]
